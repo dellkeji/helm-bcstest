@@ -13,3 +13,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+_scratch
+tpl
+_dist/
+dist/
+bin/
+helm3-test
+_dist
+
+.DS_Store

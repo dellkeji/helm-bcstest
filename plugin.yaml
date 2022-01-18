@@ -1,0 +1,9 @@
+name: "test"
+version: "0.0.1"
+usage: "test for helm 3 charts"
+description: "Helm-Chart test in YAML with ease to check your chart functional and robust."
+ignoreFlags: false
+command: "$HELM_PLUGIN_DIR/bin/helm3-test"
+hooks:
+  install: "cd $HELM_PLUGIN_DIR; script/install_plugin.sh"
+  update: "cd $HELM_PLUGIN_DIR; script/install_plugin.sh"

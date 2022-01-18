@@ -1,9 +1,9 @@
-name: "teststack"
+name: "bcstest"
 version: "0.0.1"
-usage: "test stack for helm 3 charts"
-description: "Helm-Chart test in YAML with ease to check your chart functional and robust."
+usage: "bcstest for helm 3 charts"
+description: "bcstest for charts to check your chart functional and robust."
 ignoreFlags: false
-command: "$HELM_PLUGIN_DIR/bin/teststack"
+command: "$HELM_PLUGIN_DIR/bin/bcstest"
 hooks:
   install: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
   update: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"

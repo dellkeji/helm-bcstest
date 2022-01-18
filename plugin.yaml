@@ -5,5 +5,5 @@ description: "Helm-Chart test in YAML with ease to check your chart functional a
 ignoreFlags: false
 command: "$HELM_PLUGIN_DIR/bin/helm3-test"
 hooks:
-  install: "cd $HELM_PLUGIN_DIR; script/install_plugin.sh"
-  update: "cd $HELM_PLUGIN_DIR; script/install_plugin.sh"
+  install: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"
+  update: "cd $HELM_PLUGIN_DIR; scripts/install_plugin.sh"

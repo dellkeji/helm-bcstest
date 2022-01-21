@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/dellkeji/helm-bcstest/cmd"
 
 func main() {
-	fmt.Println("this is a test")
+	cmd.Execute()
 }
